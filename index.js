@@ -150,7 +150,7 @@ export function dsp(t) {
   if (each(4,5)) Alien.hit(220*Math.pow(2,0.8), 1, 0.4);
   
   
-  if (each(0,5)) DarkChirp.hit(440, 5, 0.1);
+  if (each(0,20)) DarkChirp.hit(440, 1, 0.1);
   
   if (each(0,1)) Drum.hit(55, 0.1, 0.1);
   
